@@ -7,7 +7,129 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary : #2fa49f;
+}
+ .ant-btn.loginbtn  {
+  background-color: var(--primary) !important;
+  width: 50% !important;
+}
+
+.ant-btn-outlined.loginbtn {
+  border-color: var(--primary) !important;
+}
+
+.ant-layout .ant-menu {
+  background-color: var(--primary) !important;
+}
+
+.ant-layout .ant-menu-root .ant-menu-inine .ant-menu-sub{
+  background-color:var(--primary) !important;
+}
+
+.ant-layout .ant-layout-sider-trigger {
+  background-color: var(--primary) !important;
+}
+
+.ant-layout-sider {
+  background-color: var(--primary) !important;
+}
+
+.ant-menu-item-active .ant-menu-title-content {
+  color: black;
+}
+.ant-menu-light .ant-menu-item-selected {
+  color: black !important;
+}
+
+.ant-menu-submenu-selected .ant-menu-title-content{
+  color: black;
+}
+
+.ant-menu-submenu-selected .ant-menu-submenu-arrow{
+  color: black;
+}
+
+.ant-menu-submenu-selected .ant-menu-item-selected {
+  background-color: white !important;
+}
+
+.ant-menu .ant-menu-item-selected{
+  background-color: white !important;
+}
+
+.ant-menu-submenu-selected {
+  background-color: white !important;
+}
+
+.ant-input.dashinput {
+  width: 20%;
+}
+
+.ant-card.customcard {
+  border: 3px solid #6e9997;
+}
+
+.ant-table-thead .ant-table-cell {
+  border-radius: none !important;
+  background-color: var(--primary) !important;
+}
+
+.ant-table-container .ant-table-thead {
+  border-radius: none !important;
+}
+
+
+ 
+.ant-table-container .ant-table-tbody,
+.ant-table-tbody > tr > td {
+  border: 1px solid rgb(100, 99, 99) !important;
+  border-collapse: collapse !important;
+}
+
+
+.ant-btn.menubtn {
+  background-color: var(--primary) !important;
+}
+
+.ant-btn.downloadbtn {
+  background-color: #e1ad01 !important;
+}
+
+.ant-btn.warningbtn {
+  background-color: #FFDB58 !important;
+}
+
+.ant-btn.primarybtn {
+  background-color: var(--primary) !important;
+  color: white !important;
+  width: 100%;
+}
+
+.ant-btn.secondarybtn {
+  background-color: #0000FF !important;
+  color: white !important;
+}
+
+.ant-btn-default {
+  color: black !important;
+}
+
+
+
+
+
+
+
+

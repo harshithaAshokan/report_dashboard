@@ -1,0 +1,29 @@
+.layout {
+    background-color: #2fa49f;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px #2fa49f;
+    border-style: solid;
+    border-color : yellow white yellow white 
+}
+
+.userimg {
+    width: 50px;
+    height: 50px;
+}
+
+.iconimg {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 576px) {
+    .layout {
+        margin: 0;
+        padding: 0;
+    }
+}

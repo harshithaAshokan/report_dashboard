@@ -1,0 +1,81 @@
+.dashboard {
+    background-color: #f0f2f5;
+    padding: 20px;
+  }
+  
+  .cardTitle {
+    color: #333;
+    font-size: 16px; /* Adjust font size */
+    font-weight: 600;
+  }
+  
+  .Card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px; /* Adjust padding for alignment */
+    margin-bottom: 16px;
+  }
+  
+  .deviceItem h6 {
+    font-size: 14px; /* Adjust the font size */
+    color: #555;
+  }
+  
+  .statusOn, .statusOff {
+    font-size: 14px;
+  }
+  
+  .statusOn {
+    color: #27ae60;
+  }
+  
+  .statusOff {
+    color: #e74c3c;
+  }
+  
+  .consumptionImg, .powerHoursImg, .totalConsumptionImg {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .consumptionText, .powerHoursText {
+    font-size: 24px; /* Adjust size to match */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .metricsRow .ant-card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .metricsCard p {
+    font-size: 14px; /* Adjust font size */
+    margin-bottom: 10px;
+  }
+  
+  .phaseButton {
+    background-color: #f0f2f5;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 12px; /* Adjust the button text size */
+  }
+  
+  .metricsRow {
+    margin-top: 20px;
+  }
+
+  .dashicon {
+    width: 70px;
+    height: 70px;
+  }
+  
